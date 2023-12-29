@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 # Configusre this environment variable  via app.yaml
 # CLOUD_STORAGE_BUCKET = os.environ['CLOUD_STORAGE_BUCKET']
-CLOUD_STORAGE_BUCKET = 'time-test14'
+CLOUD_STORAGE_BUCKET = 'teju-11'
 credentials = service_account.Credentials.from_service_account_file("credentials.json")
 
 @app.route('/')
